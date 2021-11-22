@@ -1,7 +1,7 @@
 class Tableau1 extends Phaser.Scene{
     preload() {
         for (let id = 1; id <= 10; id++) {
-            this.load.image('layer' + id, 'Characters/boy/boy_4/PNG/idle2/Layer' + id + '.png');
+            this.load.image('layer' + id, 'Characters/boy/boy_4/PNG/idle2/Layer-' + id + '.png');
         }
     }
     create(){
